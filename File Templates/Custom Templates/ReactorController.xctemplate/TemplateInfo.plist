@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>ID</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Base Name</string>
+			<key>Description</key>
+			<string>The name of the Model, View and ViewModel to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>MyModel</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Nodes</key>
+			<array>
+				<string>Base</string>
+			</array>
+		</dict>
+
+		<dict>
+			<key>Identifier</key>
+			<string>TemplateType</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>Type</string>
+			<key>Description</key>
+			<string>What type of template</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>ViewController</string>
+			<key>Values</key>
+			<array>
+				<string>ViewController</string>
+				<string>TableViewController</string>
+			</array>
+		</dict>
+
+		<dict>
+			<key>Identifier</key>
+			<string>Coordinator</string>
+			<key>Name</key>
+			<string>Include coordinator</string>
+			<key>Description</key>
+			<string>Include coordinator in the template</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>TemplateType</key>
+				<array>
+					<string>ViewController</string>
+					<string>TableViewController</string>
+				</array>
+			</dict>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+
+		<dict/>
+	</array>
+</dict>
+</plist>
