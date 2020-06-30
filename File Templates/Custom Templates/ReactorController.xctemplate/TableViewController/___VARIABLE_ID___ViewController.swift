@@ -12,11 +12,11 @@ final class ___VARIABLE_ID___ViewController: UIViewController, ViewControllerTyp
     // MARK: - Outlets
 
     // MARK: - Constants
+    
+    private let viewModel: ___VARIABLE_ID___ViewModel!
 
     // MARK: - Variables
-
-    internal var viewModel: ___VARIABLE_ID___ViewModel!
-
+    
 }
 
 // MARK: - Lifecycle
