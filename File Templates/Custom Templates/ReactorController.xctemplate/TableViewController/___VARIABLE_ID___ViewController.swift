@@ -5,17 +5,23 @@ import Combine
 
 // MARK: - Class
 
-final class ___VARIABLE_ID___ViewController: UIViewController, ViewControllerType {
-
-    typealias ViewModelType =  ___VARIABLE_ID___ViewModel
+final class ___VARIABLE_ID___ViewController: UIViewController {
 
     // MARK: - Outlets
 
     // MARK: - Constants
     
-    private let viewModel: ___VARIABLE_ID___ViewModel!
+    private var viewModel: ___VARIABLE_ID___ViewModel!
 
     // MARK: - Variables
+
+    // MARK: - Initializer
+
+    static func create(viewModel: ___VARIABLE_ID___ViewModel) -> Self {
+        let instance = makeInstance()
+        instance.viewModel = viewModel
+        return instance
+    }
     
 }
 

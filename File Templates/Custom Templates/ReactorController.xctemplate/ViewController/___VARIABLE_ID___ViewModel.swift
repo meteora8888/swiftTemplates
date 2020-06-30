@@ -29,6 +29,7 @@ final class ___VARIABLE_ID___ViewModel: Reactor {
     }
 
     // MARK: - Constant
+    
     @Published var state: State = State()
 
 }
