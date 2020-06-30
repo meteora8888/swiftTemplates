@@ -6,17 +6,14 @@ import Combine
 
 // MARK: - View Model Implementation
 
-final class ___VARIABLE_ID___ViewModel: ViewModelType {
+final class ___VARIABLE_ID___ViewModel: Reactor {
 
     // MARK: - Class definitions
 
     typealias DI = Dependency
-    typealias ConfigType = Config
-    typealias StateType = State
 
     struct Config {
         let di: DI
-        var state: StateType
     }
 
     struct State {
@@ -32,17 +29,7 @@ final class ___VARIABLE_ID___ViewModel: ViewModelType {
     }
 
     // MARK: - Constant
-
-    // MARK: - Variable
-
-    internal var config: Config
-    internal let initialState: StateType = StateType()
-
-    // MARK: - Initializer
-
-    init(configuration: ConfigType) {
-        self.config = configuration
-    }
+    @Published var state: State = State()
 
 }
 
