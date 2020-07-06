@@ -8,13 +8,9 @@ import Combine
 
 final class ___VARIABLE_ID___ViewModel: Reactor {
 
-    // MARK: - Class definitions
+    // MARK: - View Model Definitions
 
-    typealias DI = Dependency
-
-    struct Config {
-        let di: DI
-    }
+    typealias DI
 
     struct State {
 
@@ -28,13 +24,21 @@ final class ___VARIABLE_ID___ViewModel: Reactor {
 
     }
 
-    // MARK: - Constant
+    // MARK: - Constants
     
-    @Published var state: State = State()
+    internal let initialState: State = State()
+    
+    private let di: DI
+    
+    // MARK: - Constructor
+    
+    init(di: DI) {
+        self.di = di
+    }
 
 }
 
-// MARK: - Reactor
+// MARK: - Reactive
 
 extension ___VARIABLE_ID___ViewModel {
 
