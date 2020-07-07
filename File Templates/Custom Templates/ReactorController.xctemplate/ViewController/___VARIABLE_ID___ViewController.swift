@@ -29,6 +29,21 @@ final class ___VARIABLE_ID___ViewController: UIViewController {
 
 extension ___VARIABLE_ID___ViewController {
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        bindState(reactor: reactor)
+        bindActions(reactor: reactor)
+    }
+
+}
+
+// MARK: - Setup
+
+extension ___VARIABLE_ID___ViewController {
+
+
+
 }
 
 // MARK: - Combine

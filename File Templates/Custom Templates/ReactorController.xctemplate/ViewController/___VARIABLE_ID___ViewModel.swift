@@ -9,7 +9,7 @@ final class ___VARIABLE_ID___ViewModel: Reactor {
 
     // MARK: - View Model Definitions
 
-    typealias DI
+    typealias DI = WithRequestManager
 
     struct State {
 
