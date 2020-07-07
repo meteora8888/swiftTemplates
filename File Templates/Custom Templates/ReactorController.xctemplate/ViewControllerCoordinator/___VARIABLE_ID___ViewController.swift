@@ -10,7 +10,7 @@ final class ___VARIABLE_ID___ViewController: UIViewController {
     // MARK: - Outlets
 
     // MARK: - Constants
-    
+
     private var viewModel: ___VARIABLE_ID___ViewModel!
 
     // MARK: - Variables
@@ -22,7 +22,7 @@ final class ___VARIABLE_ID___ViewController: UIViewController {
         instance.viewModel = viewModel
         return instance
     }
-    
+
 }
 
 // MARK: - Lifecycle

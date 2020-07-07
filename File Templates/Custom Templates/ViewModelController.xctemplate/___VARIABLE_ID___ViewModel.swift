@@ -16,7 +16,7 @@ protocol ___VARIABLE_ID___ViewModelProtocol: AnyObject {
 
 // MARK: - View Model Protocol Implementation
 
-final class ___VARIABLE_ID___ViewModel:  ___VARIABLE_ID___ViewModelProtocol {
+final class ___VARIABLE_ID___ViewModel: ___VARIABLE_ID___ViewModelProtocol {
 
     typealias DI = <#DependencyProtocol#> & <#DependencyProtocol#>
 
@@ -28,7 +28,7 @@ final class ___VARIABLE_ID___ViewModel:  ___VARIABLE_ID___ViewModelProtocol {
 
     // MARK: - Delegate
 
-    weak var delegate:  ___VARIABLE_ID___ViewModelDelegate?
+    weak var delegate: ___VARIABLE_ID___ViewModelDelegate?
 
     // MARK: - Variable
 

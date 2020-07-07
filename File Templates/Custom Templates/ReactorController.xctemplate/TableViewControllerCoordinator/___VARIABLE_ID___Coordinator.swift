@@ -43,5 +43,4 @@ final class ___VARIABLE_ID___Coordinator: Coordinator<AppStepper> {
 
 // MARK: - Navigation - Public
 
-//MARK: Navigation - Private
-
+// MARK: Navigation - Private

@@ -1,6 +1,5 @@
 //___FILEHEADER___
 
-
 import Foundation
 import Combine
 
@@ -25,13 +24,13 @@ final class ___VARIABLE_ID___ViewModel: Reactor {
     }
 
     // MARK: - Constants
-    
+
     internal let initialState: State = State()
-    
+
     private let di: DI
-    
+
     // MARK: - Constructor
-    
+
     init(di: DI) {
         self.di = di
     }

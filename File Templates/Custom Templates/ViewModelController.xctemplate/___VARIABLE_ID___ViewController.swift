@@ -24,6 +24,6 @@ final class  ___VARIABLE_ID___ViewController: UIViewController, ViewControllerTy
 
 }
 
-extension ___VARIABLE_ID___ViewController:  ___VARIABLE_ID___ViewModelDelegate {
+extension ___VARIABLE_ID___ViewController: ___VARIABLE_ID___ViewModelDelegate {
 
 }

@@ -12,7 +12,7 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIView {
         self.tagTitle.text = title
         self.isSelected = isSelected
     }
-    
+
     typealias ViewModelType = <#FileNameViewModelProtocol#>
 
     // MARK: - Outlets
