@@ -11,9 +11,14 @@ final class ___VARIABLE_ID___ViewController: UIViewController {
 
     // MARK: - Constants
 
-    private var viewModel: ___VARIABLE_ID___ViewModel!
+    private enum C {
+
+    }
 
     // MARK: - Variables
+
+    private var viewModel: ___VARIABLE_ID___ViewModel!
+    private var cancelables = Set<AnyCancellable>()
 
     // MARK: - Initializer
 
@@ -32,8 +37,8 @@ extension ___VARIABLE_ID___ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        bindState(reactor: reactor)
-        bindActions(reactor: reactor)
+        bindState(reactor: viewModel)
+        bindActions(reactor: viewModel)
     }
 
 }

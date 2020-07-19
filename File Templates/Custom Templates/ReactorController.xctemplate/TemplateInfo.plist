@@ -51,29 +51,6 @@
 			</array>
 		</dict>
 
-		<dict>
-			<key>Identifier</key>
-			<string>Coordinator</string>
-			<key>Name</key>
-			<string>Include coordinator</string>
-			<key>Description</key>
-			<string>Include coordinator in the template</string>
-			<key>Type</key>
-			<string>checkbox</string>
-			<key>RequiredOptions</key>
-			<dict>
-				<key>TemplateType</key>
-				<array>
-					<string>ViewController</string>
-					<string>TableViewController</string>
-				</array>
-			</dict>
-			<key>Default</key>
-			<string>false</string>
-			<key>NotPersisted</key>
-			<true/>
-		</dict>
-
 		<dict/>
 	</array>
 </dict>

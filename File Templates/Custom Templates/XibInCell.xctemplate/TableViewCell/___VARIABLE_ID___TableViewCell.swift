@@ -6,6 +6,6 @@ import UIKit
 
 final class ___VARIABLE_ID___TableViewCell: UITableViewCell {
 
-    @IBOutlet weak var contentXib: UIView!
+    @IBOutlet weak var contentXib: ___VARIABLE_ID___View!
 
 }

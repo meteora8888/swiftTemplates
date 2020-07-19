@@ -14,6 +14,8 @@ final class ___VARIABLE_ID___View: UIView {
 
     // MARK: - Variables
 
+    private var model: Model?
+
     // MARK: - Lifecycle
 
     override func awakeFromNib() {
@@ -23,7 +25,7 @@ final class ___VARIABLE_ID___View: UIView {
     // MARK: - Setup
 
     func setup(_ model: Model) {
-
+        self.model = model
     }
 
 }

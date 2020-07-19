@@ -26,13 +26,15 @@ final class ___VARIABLE_ID___ViewModel: Reactor {
     // MARK: - Constants
 
     internal let initialState: State = State()
+    internal let coordinator: Coordinator<AppStep>
 
     private let di: DI
 
     // MARK: - Constructor
 
-    init(di: DI) {
+    init(di: DI, coordinator: Coordinator<AppStep>) {
         self.di = di
+        self.coordinator = coordinator
     }
 
 }
