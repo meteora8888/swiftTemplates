@@ -12,7 +12,7 @@ final class ___VARIABLE_ID___ViewController: UIViewController {
     // MARK: - Constants
 
     private enum C {
-        
+
     }
 
     // MARK: - Variables
@@ -46,8 +46,6 @@ extension ___VARIABLE_ID___ViewController {
 // MARK: - Setup
 
 extension ___VARIABLE_ID___ViewController {
-
-
 
 }
 

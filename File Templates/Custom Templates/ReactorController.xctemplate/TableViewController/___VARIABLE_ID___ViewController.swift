@@ -47,8 +47,6 @@ extension ___VARIABLE_ID___ViewController {
 
 extension ___VARIABLE_ID___ViewController {
 
-
-
 }
 
 // MARK: - Combine

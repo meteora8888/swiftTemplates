@@ -39,6 +39,16 @@ final class ___VARIABLE_ID___ViewModel: Reactor {
 
 }
 
+// MARK: - Coordinator
+
+extension ___VARIABLE_ID___ViewModel {
+
+    func navigate(action: Action) -> AppStep? {
+
+    }
+
+}
+
 // MARK: - Reactive
 
 extension ___VARIABLE_ID___ViewModel {
