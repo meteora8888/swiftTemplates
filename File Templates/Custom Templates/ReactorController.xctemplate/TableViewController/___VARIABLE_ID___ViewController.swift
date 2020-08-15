@@ -7,18 +7,18 @@ import Combine
 
 final class ___VARIABLE_ID___ViewController: UIViewController {
 
-    // MARK: - Outlets
+    // MARK: - Outlet
 
-    // MARK: - Constants
+    // MARK: - Constant
 
     private enum C {
 
     }
 
-    // MARK: - Variables
+    // MARK: - Variable
 
     private var viewModel: ___VARIABLE_ID___ViewModel!
-    private var cancelables = Set<AnyCancellable>()
+    private var cancellables = Set<AnyCancellable>()
 
     // MARK: - Initializer
 

@@ -7,7 +7,7 @@ import Combine
 
 final class ___VARIABLE_ID___ViewModel: Reactor {
 
-    // MARK: - View Model Definitions
+    // MARK: - View Model Definition
 
     typealias DI = WithRequestManager
 
@@ -23,9 +23,9 @@ final class ___VARIABLE_ID___ViewModel: Reactor {
 
     }
 
-    // MARK: - Constants
+    // MARK: - Constant
 
-    internal let initialState: State = State()
+    internal let initialState = State()
     internal let coordinator: Coordinator<AppStep>
 
     private let di: DI
