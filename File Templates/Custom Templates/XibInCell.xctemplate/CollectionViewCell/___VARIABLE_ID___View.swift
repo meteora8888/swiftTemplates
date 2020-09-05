@@ -10,16 +10,16 @@ final class ___VARIABLE_ID___View: UIView {
 
     }
 
-    // MARK: - Outlets
+    // MARK: - Outlet
 
-    // MARK: - Variables
+    // MARK: - Variable
 
     private var model: Model?
 
     // MARK: - Lifecycle
 
     override func awakeFromNib() {
-
+        super.awakeFromNib()
     }
 
     // MARK: - Setup

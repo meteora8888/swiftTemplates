@@ -18,7 +18,7 @@ final class ___VARIABLE_ID___ViewController: UIViewController {
     // MARK: - Variable
 
     private var viewModel: ___VARIABLE_ID___ViewModel!
-    private var cancelablles = Set<AnyCancellable>()
+    private var cancellables = Set<AnyCancellable>()
 
     // MARK: - Initializer
 

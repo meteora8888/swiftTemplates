@@ -53,6 +53,10 @@ extension ___VARIABLE_ID___ViewModel {
 
 extension ___VARIABLE_ID___ViewModel {
 
+    func transform(action: AnyPublisher<Action, Never>) -> AnyPublisher<Action, Never> {
+        return Empty().erased
+    }
+
     func mutate(action: Action) -> AnyPublisher<Mutation, Never> {
         switch action {
         default: break
