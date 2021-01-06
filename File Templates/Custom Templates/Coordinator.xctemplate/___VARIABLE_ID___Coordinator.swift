@@ -28,7 +28,6 @@ final class ___VARIABLE_ID___Coordinator: Coordinator<AppStep> {
          navigationController: UINavigationController?) {
         self.di = di
         self.parentCoordinator = parentCoordinator
-        super.init(navigationController: navigationController ?? SFZNavigationController.create())
     }
 
     // MARK: - Public

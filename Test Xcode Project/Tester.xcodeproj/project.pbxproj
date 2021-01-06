@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D0DA36E25A5E40700EAAA59 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0DA36D25A5E40700EAAA59 /* DependencyContainer.swift */; };
 		5DB76BF624A366CC0099D63E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB76BF524A366CC0099D63E /* AppDelegate.swift */; };
 		5DB76BFD24A366CC0099D63E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB76BFB24A366CC0099D63E /* Main.storyboard */; };
 		5DB76BFF24A366CE0099D63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB76BFE24A366CE0099D63E /* Assets.xcassets */; };
-		5DC1837824AB1E32000D5E2A /* AndrejViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC1837524AB1E32000D5E2A /* AndrejViewModel.swift */; };
-		5DC1837924AB1E32000D5E2A /* Andrej.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC1837624AB1E32000D5E2A /* Andrej.storyboard */; };
-		5DC1837A24AB1E32000D5E2A /* AndrejViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC1837724AB1E32000D5E2A /* AndrejViewController.swift */; };
 		5DFD16D524AA197E002FD681 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFD16D424AA197E002FD681 /* Extensions.swift */; };
 		6DE75C8633578A68C7FE11C3 /* Pods_Tester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2051B8D2BDCCC7EA38EA6374 /* Pods_Tester.framework */; };
 /* End PBXBuildFile section */
@@ -20,14 +18,12 @@
 /* Begin PBXFileReference section */
 		1F3F0007B0302B9D7EBF7F04 /* Pods-Tester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tester.release.xcconfig"; path = "Target Support Files/Pods-Tester/Pods-Tester.release.xcconfig"; sourceTree = "<group>"; };
 		2051B8D2BDCCC7EA38EA6374 /* Pods_Tester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0DA36D25A5E40700EAAA59 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 		5DB76BF224A366CC0099D63E /* Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB76BF524A366CC0099D63E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DB76BFC24A366CC0099D63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DB76BFE24A366CE0099D63E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DB76C0324A366CE0099D63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DC1837524AB1E32000D5E2A /* AndrejViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndrejViewModel.swift; sourceTree = "<group>"; };
-		5DC1837624AB1E32000D5E2A /* Andrej.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Andrej.storyboard; sourceTree = "<group>"; };
-		5DC1837724AB1E32000D5E2A /* AndrejViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndrejViewController.swift; sourceTree = "<group>"; };
 		5DFD16D424AA197E002FD681 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D46D0F477E184BE4F91DC4AD /* Pods-Tester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tester.debug.xcconfig"; path = "Target Support Files/Pods-Tester/Pods-Tester.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,6 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				5DFD16D424AA197E002FD681 /* Extensions.swift */,
+				5D0DA36D25A5E40700EAAA59 /* DependencyContainer.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -86,9 +83,6 @@
 		5DFD16D624AA19EE002FD681 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
-				5DC1837524AB1E32000D5E2A /* AndrejViewModel.swift */,
-				5DC1837624AB1E32000D5E2A /* Andrej.storyboard */,
-				5DC1837724AB1E32000D5E2A /* AndrejViewController.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -172,7 +166,6 @@
 			files = (
 				5DB76BFF24A366CE0099D63E /* Assets.xcassets in Resources */,
 				5DB76BFD24A366CC0099D63E /* Main.storyboard in Resources */,
-				5DC1837924AB1E32000D5E2A /* Andrej.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,10 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DC1837A24AB1E32000D5E2A /* AndrejViewController.swift in Sources */,
+				5D0DA36E25A5E40700EAAA59 /* DependencyContainer.swift in Sources */,
 				5DB76BF624A366CC0099D63E /* AppDelegate.swift in Sources */,
 				5DFD16D524AA197E002FD681 /* Extensions.swift in Sources */,
-				5DC1837824AB1E32000D5E2A /* AndrejViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

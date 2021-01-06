@@ -16,13 +16,13 @@
       <key>Required</key>
       <true/>
       <key>Name</key>
-      <string>Model:</string>
+      <string>View Name</string>
       <key>Description</key>
-      <string>The name of the Model, View and ViewModel to create</string>
+      <string>The name of the Xib View/TableViewCell/CollectionViewCell to create</string>
       <key>Type</key>
       <string>text</string>
       <key>Default</key>
-      <string>MyModel</string>
+      <string>MyAny+(View/TableViewCell/CollectionViewCell)</string>
     </dict>
 
     <dict>

@@ -10,19 +10,20 @@
 	</array>
 	<key>Options</key>
 	<array>
+
 		<dict>
 			<key>Identifier</key>
 			<string>ID</string>
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Controller, Storyboard and Model name</string>
+			<string>Manager Name</string>
 			<key>Description</key>
-			<string>The name of the Controller, Storyboard and Model to create</string>
+			<string>The name of the Manager to create</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>Default</key>
-			<string>MyAny+(Model/ViewController)</string>
+			<string>MyAny+(Manager)</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Nodes</key>
@@ -33,21 +34,22 @@
 
 		<dict>
 			<key>Identifier</key>
-			<string>TemplateType</string>
+			<string>VAR</string>
 			<key>Required</key>
-			<string>YES</string>
+			<true/>
 			<key>Name</key>
-			<string>Type</string>
+			<string>VariableName</string>
 			<key>Description</key>
-			<string>What type of template</string>
+			<string>The name of the variable when using the dependency</string>
 			<key>Type</key>
-			<string>popup</string>
+			<string>text</string>
 			<key>Default</key>
-			<string>ViewController</string>
-			<key>Values</key>
+			<string>myAny+(Manager)</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Nodes</key>
 			<array>
-				<string>ViewController</string>
-				<string>TableViewController</string>
+				<string>Base</string>
 			</array>
 		</dict>
 

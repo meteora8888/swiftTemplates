@@ -10,20 +10,20 @@
 	</array>
 	<key>Options</key>
 	<array>
-		
+
 		<dict>
 			<key>Identifier</key>
 			<string>ID</string>
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Base Name</string>
+			<string>Coordinator Name</string>
 			<key>Description</key>
-			<string>The name of the Model, View and ViewModel to create</string>
+			<string>The name of the Coordinator to create</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>Default</key>
-			<string>MyModel</string>
+			<string>MyAny+(Coordinator)</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Nodes</key>
