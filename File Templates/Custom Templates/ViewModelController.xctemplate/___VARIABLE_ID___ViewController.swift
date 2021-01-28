@@ -6,15 +6,15 @@ import UIKit
 
 final class ___VARIABLE_ID___ViewController: UIViewController {
 
-    // MARK: - Outlets
+    // MARK: - Outlet
 
-    // MARK: - Constants
+    // MARK: - Constant
 
     private enum C {
-        
+
     }
 
-    // MARK: - Variables
+    // MARK: - Variable
 
     private var viewModel: ___VARIABLE_ID___VM!
 
@@ -44,7 +44,7 @@ extension ___VARIABLE_ID___ViewController {
 
 }
 
-// MARK: - Privates
+// MARK: - Private
 
 extension ___VARIABLE_ID___ViewController {
 

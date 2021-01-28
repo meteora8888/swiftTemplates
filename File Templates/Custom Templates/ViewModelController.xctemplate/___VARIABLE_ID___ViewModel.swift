@@ -24,7 +24,7 @@ extension ___VARIABLE_ID___ViewModel: ___VARIABLE_ID___VM {
 
 }
 
-// MARK: - Privates
+// MARK: - Private
 
 extension ___VARIABLE_ID___ViewModel {
 
